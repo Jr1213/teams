@@ -1,4 +1,8 @@
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById("load").style.display = "none"; 
+})
+
 AOS.init({
-    // offsite: 400,
     duration: 1000
 });
