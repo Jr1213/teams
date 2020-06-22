@@ -80,7 +80,17 @@ body{
     background-color: #fff;
     border: solid #000 2px;
 }
-
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h3 {
+    color: #fff;
+    padding: 3rem 0;
+    font-size: 2rem;
+}
 @media (max-width: 700px){
     .container .card img {
         max-width: 100%;
